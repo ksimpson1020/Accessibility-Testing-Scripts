@@ -1,5 +1,5 @@
 //selecting all images
-let images = document.querySelectorAll('img');
+let images = document.querySelectorAll('img, i');
 //result for logging, results are images with missing alt tags
 let result = [];
 //logic that checks
