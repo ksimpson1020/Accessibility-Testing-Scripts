@@ -19,7 +19,7 @@ console.log(result)
 let images = document.querySelectorAll('img, i');
 let result = [];
 for (let i = 0; i < images.length; i++){
-if (images[i].hasAttribute('alt')){
+if (images[i].hasAttribute('alt') || (images[i].hasAttribute('title'))){
 	console.log(images[i].getAttribute("alt"));
 } else {
 images[i].style.border= "2px solid #FF0000";
